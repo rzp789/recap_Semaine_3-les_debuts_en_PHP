@@ -1,5 +1,72 @@
 # Recape S3
 
+
+
+
+
+# Variables et Conditions  
+
+
+
+
+##Syntaxe: $'nom de la variable' = la 'valeur'et on termine par un ';'
+
+
+
+###les valeurs peuvent être de type:
+
+- String (chaine de caracteres)
+- Integer (nombre entier)
+- Float (nombre décimal)
+- Boolean (true ou false) 
+- Array (tableau) 
+- Object (objet)
+- Null (rien)
+- Ressource (speciale, fait reference a une ressource externe) 
+
+###Portée des valeurs:
+
+- "Portée globale", écrite dans le script en dessous de l'endroit ou on l'affecte.
+
+- "La portée locale", elle est declarée dans une fonction et elle ne s'applique qu'à l'interieur de la fonction
+
+
+###Les conditions: 
+
+if / else / elseif / switch / for / while.
+
+Elles donnent des instructions aux programmes:
+
+if (expression) {
+// bloc d'instructions 
+
+} elsif (expression){
+// bloc d'instructions
+}
+
+
+La condition est evaluée, si elle donne:
+
+- 'true' =>
+execute le bloc d'instructions.
+
+- 'false' =>
+cherche "else" ou "elseif" pour continuer d'executer le programme.
+
+###Les opérateurs:
+
+- '=' affectation des valeurs.
+- '==' égalité (valeur uniquement) 
+- '===' égalité (valeur + type)
+-  '+' sert a l'addition 
+- '%' modulo (reste de la division) 
+- '++' ou '--' (sert a l'incrémentation +1 ou la décrémentation -1)
+- '||' désigne un 'ou' 
+- '&&' désigne un 'et'
+- 'switch' : instruction qui permet de tester toutes les valeurs possibles que peut prendre une variable. au même titre que la fonction 'elseif' mais en plus simple et plus facilement lisible. 
+
+
+
 ## Les Arrays :
 
 * Tableau indéxé numériquement :
@@ -90,9 +157,4 @@ ou si l'on n'a pas besoin de connaitre les clés
     		echo $valeur.'<br />'."\n";
 	    }
     ?>
-
-
-
-
-
 
